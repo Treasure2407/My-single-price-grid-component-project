@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+
+.container{
+    width: 50%;
+
+}
+
+.intro{
+    background-color: white;
+    padding: 3%;
+
+}
+
+h1{
+    color: hsla(182, 74%, 38%, 0.673);
+
+}
+
+h1, h2, p{
+    padding: 2%;
+
+}
+
+#text{
+    padding: 2%;
+    color: hsl(71, 73%, 54%);
+    
+}
+
+.content{
+    color: hsl(218, 22%, 67%) ;
+
+}
+
+.price{
+    background-color: hsl(179, 62%, 43%);
+    padding: 2%;
+    width: 50%;
+
+}
+
+.reason{
+    background-color: hsla(179, 62%, 42%, 0.673);
+    padding: 2%;
+    width: 50%;
+}
+
+.wrapper{
+    display: flex;
+    color: white;
+
+}
+
+
+button{
+    width: 100%;
+    padding: 15px;
+    background-color: chartreuse;
+    color: white;
+    border-color: chartreuse;
+
+}
+
+.amount{
+    font-size: 9px;
+}
+
+span{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.access{
+    padding: 15px;
+}
+
+
+/* media queries (for media responsiveness for phones, ipads and laptops view) */
+@media (max-width: 600px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .price, .reason{
+        width: 100%;
+    }
+
+    .container{
+        width: 90%;
+    
+}
+    
+}
+
+@media (min-width: 601px) and (max-width: 850px) {
+        .container{
+            width: 80%;
+        }
+          
+}
